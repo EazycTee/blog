@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.eazyc.com/"/>
-  <updated>2017-09-16T14:35:13.000Z</updated>
+  <updated>2017-09-17T05:01:07.000Z</updated>
   <id>http://blog.eazyc.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>javascript.toggle.function</title>
+    <link href="http://blog.eazyc.com/2017/09/17/javascript.toggle.function/"/>
+    <id>http://blog.eazyc.com/2017/09/17/javascript.toggle.function/</id>
+    <published>2017-09-17T04:30:00.000Z</published>
+    <updated>2017-09-17T05:01:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> util = &#123;</div><div class="line">    <span class="comment">// 依次循环执行函数</span></div><div class="line">    <span class="comment">// 参数：接受任意数量函数为参数</span></div><div class="line">    <span class="comment">// 调用：不带参数调用时执行下一个函数；可带1个number参数，执行对应的函数</span></div><div class="line">    <span class="comment">// 返回：本次执行函数在参数中的 index</span></div><div class="line">    toggleFn: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">var</span> fns = <span class="built_in">Array</span>.prototype.slice.call(<span class="built_in">arguments</span>); <span class="comment">// 参数转换成数组</span></div><div class="line">        <span class="keyword">var</span> step = <span class="number">-1</span>;</div><div class="line">        <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">num</span>) </span>&#123;</div><div class="line">            <span class="keyword">if</span> (num &amp;&amp; !fns[num]) &#123;</div><div class="line">                <span class="built_in">console</span>.warn(<span class="string">'not an expected argement: '</span> + num)</div><div class="line">            &#125; <span class="keyword">else</span> &#123;</div><div class="line">                step = (num &amp;&amp; fns[num]) ? num : step + <span class="number">1</span>;</div><div class="line">                step = (step &lt; fns.length) ? step : <span class="number">0</span>;</div><div class="line">                fns[step]();</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">return</span> step;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://blog.eazyc.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
