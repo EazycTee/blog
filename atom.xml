@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.eazyc.com/"/>
-  <updated>2017-10-27T04:24:59.480Z</updated>
+  <updated>2017-10-27T08:07:22.843Z</updated>
   <id>http://blog.eazyc.com/</id>
   
   <author>
@@ -17,20 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>README</title>
+    <title>关于</title>
     <link href="http://blog.eazyc.com/2017/09/18/readme/"/>
     <id>http://blog.eazyc.com/2017/09/18/readme/</id>
     <published>2017-09-18T14:34:00.000Z</published>
-    <updated>2017-10-27T04:24:59.480Z</updated>
+    <updated>2017-10-27T08:07:22.843Z</updated>
     
-    <content type="html"><![CDATA[<p>我是 eazyc，欢迎来到我的 GitHub Hexo 站点：）</p><p>这个站点仅用作示例，我的最近文章在这里 <a href="http://www.eazyc.info" target="_blank" rel="external">www.eazyc.info</a>。</p>]]></content>
+    <content type="html"><![CDATA[<p>您好！我是 eazyc，欢迎来到我的 GitHub Hexo 站点：）</p><p>原本打算使用这个站点作为博客，但博客还是要有评论的好啊~ 所以现在这个站点仅用作留念，文章都发布在这里 <a href="http://www.eazyc.info" target="_blank" rel="external">eazyc.info</a>。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;我是 eazyc，欢迎来到我的 GitHub Hexo 站点：）&lt;/p&gt;
-&lt;p&gt;这个站点仅用作示例，我的最近文章在这里 &lt;a href=&quot;http://www.eazyc.info&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;www.eazyc.info
+        &lt;p&gt;您好！我是 eazyc，欢迎来到我的 GitHub Hexo 站点：）&lt;/p&gt;
+&lt;p&gt;原本打算使用这个站点作为博客，但博客还是要有评论的好啊~ 所以现在这个站点仅用作留念，文章都发布在这里 &lt;a href=&quot;http://www.eazyc.info&quot; target=&quot;_b
       
     
     </summary>
